@@ -1,0 +1,12 @@
+Package: cytProf
+Title: Cytological Profiling
+Description: Bacterial Cytological Profiling
+URL: http://researchdev.roche.com/viewvc/
+Version: 0.0.1
+Maintainer: Andreas Maunz <andreas.maunz@roche.com>
+Author: Andreas Maunz <andreas.maunz@roche.com>
+Depends: R (>= 3.0), testthat (>= 0.9.1)
+Suggests:
+Imports:
+License: BSD
+Packaged: 2015-01-30 12:16:35 UTC; maunza 
