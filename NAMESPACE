@@ -1,2 +1,12 @@
 export(
+  assign_pkg_globals,
+  createAllDevPlots,
+  get_pkg_globals,
+  .onLoad,
+  .onUnload,
+  openPdfDevice,
+  openPngDevice,
+  readDataCsv
 )
+
+import(MASS)
