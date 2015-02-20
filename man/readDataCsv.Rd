@@ -2,17 +2,17 @@
 % Please edit documentation in R/readData.R
 \name{readDataCsv}
 \alias{readDataCsv}
-\title{Read CSV data}
+\title{Read CSV data, enforce string representation}
 \usage{
-readDataCsv()
+readDataCsv(csvFilePath)
 }
 \arguments{
-\item{x}{file path to CSV}
+\item{csvFilePath}{file path to CSV}
 }
 \value{
 data frame
 }
 \description{
-Read CSV data
+Read CSV data, enforce string representation
 }
 

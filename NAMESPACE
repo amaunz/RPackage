@@ -4,9 +4,12 @@ export(
   get_pkg_globals,
   .onLoad,
   .onUnload,
+  normalizeFilename,
   openPdfDevice,
   openPngDevice,
-  readDataCsv
+  readDataCsv,
+  runMain,
+  sampleConfig
 )
 
 import(MASS)
